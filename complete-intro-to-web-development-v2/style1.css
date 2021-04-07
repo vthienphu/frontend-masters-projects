@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+.brand {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: lighter;
+    text-align: center;
+    font-style: italic;
+}
+
+.brand-header {
+    border-bottom: solid black 3px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+}
+
+.story {
+    border-left: 2px solid black;
+    border-bottom: solid black 3px;
+    padding: 0 10px;
+}
+
+.quarter {
+    width: 25%;
+}
+
+.half {
+    width: 50%;
+}
+
+.three-quarter {
+    width: 75%;
+}
+
+.article-title {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+.cute-puppy {
+    width: 100%;
+}
+
+.story:last-child {
+    border-right: 2px solid black;
+}
+
+.sections {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.site-section {
+    list-style-type: none;
+    font-weight: bolder;
+    opacity: 75%;
+    font-size: 40px;
+    flex: 1;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.site-section-politics {
+    background-color: aliceblue;
+}
+
+.site-section-technology {
+    background-color: lime;
+}
+
+.site-section-local {
+    background-color: cornflowerblue;
+}
+
+.site-section-opinion {
+    background-color: blueviolet;
+}
+
+.site-section-sports {
+    background-color: antiquewhite;
+}
+
+.section-link {
+    text-decoration: none;
+    color: slategray;
+}
